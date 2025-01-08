@@ -1,0 +1,43 @@
+/* Additional CSS */
+.header {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.search-bar input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.section img {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grid div {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.grid div:hover {
+    background-color: #e0e0e0;
+}
